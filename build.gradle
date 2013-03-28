@@ -1,0 +1,10 @@
+apply plugin: 'war'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	providedCompile 'com.sun.jersey:jersey-server:1.1.5.1'
+	providedCompile 'javax:javaee-web-api:6.0'
+}
